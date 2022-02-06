@@ -42,10 +42,9 @@ Trustworthy learning from corrupted data is a vital research topic in modern mac
 The following papers focus on open-set reliability:
 </ul>
 <ul>
-<li><p>part-dependent label noise:
-towards instance-dependent label noise (<a href="https://proceedings.neurips.cc/paper/2020/file/5607fe8879e4fd269e88387e8cb30b7e-Paper.pdf" target="_blank">NeurIPS'20</a>)</p></li>
 <li><p>confidence scores make instance-dependent label-noise learning possible (<a href="http://proceedings.mlr.press/v139/berthon21a/berthon21a.pdf" target="_blank">ICML'21</a>)</p></li>
 <li><p>instance-dependent label-noise learning under a structural causal model (<a href="https://proceedings.neurips.cc/paper/2021/file/23451391cd1399019fa0421129066bc6-Paper.pdf" target="_blank">NeurIPS'21</a>)</p></li>
+<li><p>tackling instance-dependent label noise via a universal probabilistic model (<a href="https://ojs.aaai.org/index.php/AAAI/article/view/17221/17028" target="_blank">AAAI'21</a>)</p></li>
 <li><p>learning with group noise (<a href="https://ojs.aaai.org/index.php/AAAI/article/view/17222/17029" target="_blank">AAAI'21</a>)</p></li>
 <li><p>exploiting class activation value for partial-label learning (<a href="https://openreview.net/pdf?id=qqdXHUGec9h" target="_blank">ICLR'22</a>)</p></li>
 <li><p>fair classification with instance-dependent label noise (<a href="https://openreview.net/pdf?id=s-pcpETLpY" target="_blank">CLeaR'22</a>)</p></li>
@@ -55,7 +54,7 @@ towards instance-dependent label noise (<a href="https://proceedings.neurips.cc/
 </ul>
 <ul>
 <li><p>probabilistic margins for instance reweighting in adversarial training (<a href="https://proceedings.neurips.cc/paper/2021/file/c3a690be93aa602ee2dc0ccab5b7b67e-Paper.pdf" target="_blank">NeurIPS'21</a>)</p></li>
-<li><p>understanding adversarial attacks via maximum mean discrepancy (<a href="http://proceedings.mlr.press/v139/gao21b/gao21b.pdf" target="_blank">ICML'21</a>)</p></li>
+<li><p>maximum mean discrepancy is aware of adversarial attacks (<a href="http://proceedings.mlr.press/v139/gao21b/gao21b.pdf" target="_blank">ICML'21</a>)</p></li>
 <li><p>learning diverse-structured networks for adversarial robustness (<a href="http://proceedings.mlr.press/v139/du21f/du21f.pdf" target="_blank">ICML'21</a>)</p></li>
 <li><p>geometry-aware instance-reweighted adversarial training (<a href="https://openreview.net/pdf?id=iAX0l6Cz8ub" target="_blank">ICLR'21</a>)</p></li>
 <li><p>adversarial robustness through the lens of causality (<a href="https://openreview.net/pdf?id=cZAi1yWpiXQ" target="_blank">ICLR'22</a>)</p></li>
@@ -78,19 +77,21 @@ towards instance-dependent label noise (<a href="https://proceedings.neurips.cc/
 
 <ul>
 <h3>Software</h3>
-<li><p>part-dependent label noise: towards instance-dependent label noise, [<a href="https://github.com/xiaoboxia/Part-dependent-label-noise" target="_blank">code</a>]</p></li>
-<li><p>learning with group noise, [<a href="https://github.com/QizhouWang/Max-Matching" target="_blank">code</a>]</p></li>
-<li><p>geometry-aware instance-reweighted adversarial training, [<a href="https://github.com/zjfheart/Geometry-aware-Instance-reweighted-Adversarial-Training" target="_blank">code</a>]</p></li>
 <li><p>confidence scores make instance-dependent label-noise learning possible, [<a href="https://github.com/antoninbrthn/CSIDN" target="_blank">code</a>]</p></li>
+<li><p>instance-dependent label-noise learning under a structural causal model, [<a href="https://github.com/a5507203/IDLN" target="_blank">code</a>]</p></li>
+<li><p>tackling instance-dependent label noise via a universal probabilistic model, [<a href="https://github.com/QizhouWang/instance-dependent-label-noise" target="_blank">code</a>]</p></li>
+<li><p>learning with group noise, [<a href="https://github.com/QizhouWang/Max-Matching" target="_blank">code</a>]</p></li>
+<li><p>exploiting class activation value for partial-label learning, [code]</p></li>
+<li><p>fair classification with instance-dependent label noise, [code]</p></li>
+<li><p>probabilistic margins for instance reweighting in adversarial training, [<a href="https://github.com/QizhouWang/MAIL" target="_blank">code</a>]</p></li>
 <li><p>maximum mean discrepancy is aware of adversarial attacks, [<a href="https://github.com/Sjtubrian/SAMMD" target="_blank">code</a>]</p></li>
 <li><p>learning diverse-structured networks for adversarial robustness, [<a href="https://github.com/d12306/dsnet" target="_blank">code</a>]</p></li>
-<li><p>probabilistic margins for instance reweighting in adversarial training, [<a href="https://github.com/QizhouWang/MAIL" target="_blank">code</a>]</p></li>
-<li><p>tohan: a one-step approach towards few-shot hypothesis adaptation, [<a href="https://github.com/Haoang97/TOHAN" target="_blank">code</a>]</p></li>
-<li><p>instance-dependent label-noise learning under a structural causal model, [<a href="https://github.com/a5507203/IDLN" target="_blank">code</a>]</p></li>
+<li><p>geometry-aware instance-reweighted adversarial training, [<a href="https://github.com/zjfheart/Geometry-aware-Instance-reweighted-Adversarial-Training" target="_blank">code</a>]</p></li>
 <li><p>adversarial robustness through the lens of causality, [code]</p></li>
-<li><p>exploiting class activation value for partial-label learning, [code]</p></li>
 <li><p>understanding and improving graph injection attack by promoting unnoticeability, [code]</p></li>
+<li><p>tohan: a one-step approach towards few-shot hypothesis adaptation, [<a href="https://github.com/Haoang97/TOHAN" target="_blank">code</a>]</p></li>
 <li><p>meta discovery: learning to discover novel classes given very limited data, [code]</p></li>
+<li><p>searching to exploit memorization effect in learning from noisy labels, [<a href="https://github.com/AutoML-Research/S2E" target="_blank">code</a>]
 </ul>
 
 <ul>
