@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Bo Han</title>
+    <base href="https://bhanML.github.io/research.html">
+</head>
+
+<body>
+<h1 style="padding-left: 0.5em">Bo Han</h1><hr>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+    <div class="menu-item"><a href="index.html">Home</a></div>
+	<div class="menu-item"><a href="news.html">News</a></div>
+    <div class="menu-item"><a href="research.html">Research</a></div>
+	<div class="menu-item"><a href="group.html">Research Group</a></div>
+	<div class="menu-item"><a href="service.html">Professional Service</a></div>
+    <div class="menu-item"><a href="teaching.html">Teaching</a></div>
+    <div class="menu-item"><a href="codedata.html">Codes & Data</a></div>
+</td>
+<td id="layout-content">
+
+<div>
+        <h2><a name="research_ecs"></a>NSFC General Program</h2> (PI: Dr. Bo Han, Department of Computer Science, Hong Kong Baptist University)<br><br>
+
+<ul>
+<h3>Project Award Information</h3>
+<li><p>Award Number: <a href="https://www.comp.hkbu.edu.hk/v1/?page=nsfc#funded_7" target="_blank">NSFC GP 62376235</a></p></li>
+<li><p>Title: The Research on Trustworthy Federated Learning in Imperfect Environments</p></li>
+<li><p>Principal Investigator (PI): Dr. Bo Han, Department of Computer Science, Hong Kong Baptist University</p></li>
+</ul>
+
+<ul>
+<h3>Project Summary</h3>
+Federated Learning (FL) is a new machine learning paradigm, which aims to keep client data localized, but boosts the performance of local models by synergizing other models via the central server. Due to the protection of data privacy, FL has been widely applied to many daily scenarios, such as the cross-device setting (e.g., mobile devices) and the cross-silo setting (e.g., banks or clinics). The design of classical FL algorithms is based on the implicit assumption of perfect environments, such as fully supervised data, cooperative clients, and homogeneous models. However, such assumption hinders the deployment and application of FL algorithms in real-world imperfect environments, such as weakly supervised data, competitive clients, and heterogeneous models. Thus, this project proposes “trustworthy federated learning (TFL)” paradigm, which aims to reliably enable FL algorithms in imperfect environments. The key philosophy of TFL paradigm focuses on two folds. First, local clients should be autonomous rather than dependent. Second, the role of central servers should shift from pure computing to monitoring plus computing. Specifically, from data perspective, we propose to design the excerpt-auxiliary protocol to handle federated learning with weakly
+supervised data. From client perspective, we propose to design the composite mean embedding discrepancy test for tackling federated learning with competitive clients. From server perspective, we propose to develop the adaptive group model aggregating framework to enable federated learning with heterogeneous models. Meanwhile, this project preliminarily discusses how to provide the theoretical guarantees for TFL in imperfect environments, and how to integrate the proposed learning algorithms into the TFL prototype system. This project also aims to apply the proposed TFL algorithms and system to more real-world problems.
+</ul>
+
+<ul>
+<h3>Research Publications</h3>
+The following papers focus on trustworthy federated learning from data perspective:
+</ul>
+<ul>
+<li><p>virtual homogeneity learning against data heterogeneity in federated learning (<a href="https://proceedings.mlr.press/v162/tang22d/tang22d.pdf" target="_blank">ICML'22</a>)</p></li>
+<li><p>feature distillation against data heterogeneity in federated learning (<a href="https://openreview.net/pdf?id=phnGilhPH8" target="_blank">NeurIPS'23</a>)</p></li>
+<li><p>federated learning with bilateral curation for
+partially class-disjoint data (<a href="https://openreview.net/pdf?id=wwmKVO8bsR" target="_blank">NeurIPS'23</a>)</p></li>
+<li><p>robust training of federated models with extremely label deficiency (<a href="https://openreview.net/pdf?id=qxLVaYbsSI" target="_blank">ICLR'24</a>)</p></li>
+<li><p>enhancing one-shot federated learning through data and ensemble co-boosting (<a href="https://openreview.net/pdf?id=tm8s3696Ox" target="_blank">ICLR'24</a>)</p></li>
+</ul>
+
+<ul> The following papers focus on trustworthy federated learning from client perspective:
+</ul>
+<ul>
+<li><p>combating exacerbated heterogeneity for robust models in federated learning (<a href="https://openreview.net/pdf?id=eKllxpLOOm" target="_blank">ICLR'23</a>)</p></li>
+<li><p>federated noisy client learning (<a href="https://arxiv.org/pdf/2106.13239.pdf" target="_blank">TNNLS'23</a>)</p></li>
+<li><p>measuring and improving client update in federated learning (<a href="https://openreview.net/pdf?id=giU9fYGTND" target="_blank">ICLR'24</a>)</p></li>
+<li><p>accurate forgetting for heterogeneous federated continual learning (<a href="https://openreview.net/pdf?id=ShQrnAsbPI" target="_blank">ICLR'24</a>)</p></li>
+<li><p>federated learning with extremely noisy-labeled clients via negative distillation (<a href="https://arxiv.org/pdf/2312.12703.pdf" target="_blank">AAAI'24</a>)</p></li>
+</ul>
+
+<ul> The following papers focus on trustworthy federated learning from server perspective:
+</ul>
+<ul>
+<li><p>server-client collaborative distillation for federated reinforcement learning (<a href="https://dl.acm.org/doi/pdf/10.1145/3604939" target="_blank">TKDD'23</a>)</p></li>
+</ul>
+
+<ul>
+<h3>Software</h3>
+<li><p>virtual homogeneity learning against data heterogeneity in federated learning, [<a href="https://github.com/tmlr-group/VHL" target="_blank">code</a>]</p></li>
+<li><p>feature distillation against data heterogeneity in federated learning, [<a href="https://github.com/tmlr-group/FedFed" target="_blank">code</a>]</p></li>
+<li><p>federated learning with bilateral curation for partially class-disjoint data, [<a href="https://github.com/MediaBrain-SJTU/FedGELA" target="_blank">code</a>]</p></li>
+<li><p>robust training of federated models with extremely label deficiency, [code]</p></li>
+<li><p>enhancing one-shot federated learning through data and ensemble co-boosting, [code]</p></li>
+<li><p>combating exacerbated heterogeneity for robust models in federated learning, [<a href="https://github.com/tmlr-group/SFAT" target="_blank">code</a>]</p></li>
+<li><p>federated noisy client learning, [<a href="https://github.com/TKH666/Fed-NCL" target="_blank">code</a>]</p></li>
+<li><p>measuring and improving client update in federated learning, [code]</p></li>
+<li><p>accurate forgetting for heterogeneous federated continual learning, [code]</p></li>
+<li><p>federated learning with extremely noisy-labeled clients via negative distillation, [<a href="https://github.com/linChen99/FedNed" target="_blank">code</a>]</p></li>
+<li><p>server-client collaborative distillation for federated reinforcement learning, [<a href="https://github.com/tmlr-group/SCCD" target="_blank">code</a>]</p></li>
+</ul>
+
+<ul>
+<h3>Education</h3>
+<li><p>UG Course: <a href="https://www.comp.hkbu.edu.hk/v1/file/course/COMP3057.pdf" target="_blank">COMP3057</a> (2023 Autumn, 2024 Autumn, 2025 Autumn)</p></li>
+<li><p>PG Course: <a href="https://www.comp.hkbu.edu.hk/v1/file/course/COMP7250.pdf" target="_blank">COMP7250</a> (2023 Spring, 2024 Spring, 2025 Spring), <a href="https://www.comp.hkbu.edu.hk/v1/file/course/COMP7160.pdf" target="_blank">COMP7160</a> (2023 Autumn, 2024 Autumn, 2025 Autumn)</p></li>
+<li><p>Undergraduate Research Programme (<a href="https://research.hkbu.edu.hk/study-with-us/undergraduate-research-programme" target="_blank">UGRP</a>): Yixiao Zheng, Fengfei Yu, Jiayu Wang, Yanyao Huang, Guanhong Jiang, Abhinav Hang Rai</p></li>
+<li><p>Summer Undergraduate Research Fellowship: Yixiao Zheng, Fengfei Yu</p></li>
+</ul>
+
+<ul>
+<h3>Collaborators</h3>
+<li><p> University: University of Maryland College Park, The University of Sydney, Hong Kong University of Science and Technology, The Chinese University of Hong Kong, University of Macau, University of Auckland, Tsinghua University, Shanghai Jiao Tong University, University of Science and Technology of China, Xiamen University</p></li>
+<li><p> Institute: Shanghai AI Laboratory, A*STAR Institute of High Performance Computing</p></li>
+<li><p>	Industry: Microsoft Research, Baidu Research</p></li>
+</ul>
+
+<ul>
+<h3>Acknowlewdgement</h3>
+This material is based upon work supported by the National Natural Science Foundation (NSFC) under Grant No. 62376235. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Natural Science Foundation (NSFC).
+</ul>
+
+</div>
+
+</td>
+</tr>
+</table>
+</body>
+</html>
